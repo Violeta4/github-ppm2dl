@@ -1,0 +1,127 @@
+:root {
+  --font1: 'Courier New', monospace;
+  --font2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --font3: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c9e9f3;
+}
+#header {
+  background-color: #3da0be;
+  width: 100%;
+  height: 7em;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+#logo {
+  margin-left: 10px;
+}
+#menu ul {
+  display: flex;
+  justify-content: end;
+  gap: 1em;
+}
+#menu a {
+  color: #3bc7f1;
+}
+#menu ul li {
+  list-style: none;
+  padding: 0.5em;
+}
+h1 {
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: var(--font1);
+}
+h2 {
+  margin: 5px 0px 25px 10px;
+  font-size: 18px;
+  font-family: var(--font3);
+}
+.title {
+  margin: 1px 20px 0px 15px;
+  font-size: 30px;
+  font-family: var(--font2);
+}
+p {
+  margin: 5px 0px 25px 10px;
+  font-size: 16px;
+  font-family: var(--font3);
+}
+.content {
+  text-align: justify;
+  margin: 0px 20px 0px 15px;
+  font-size: 14px;
+}
+div.main ul li {
+  font-family: var(--font2);
+  margin-left: 5px;
+}
+div.main a {
+  color: #30bde7;
+}
+.foot a {
+  color: rgb(0, 131, 175);
+}
+.foot {
+  text-align: center;
+  color: white;
+  background: rgb(152, 223, 235);
+  margin-top: 1em;
+  padding: 0.2em;
+}
+.foot .links ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.links ul li {
+  list-style: none;
+}
+
+.list-of-podcasts {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+}
+.podcasts-preview {
+  border: 1px solid #888;
+  padding: 0.5em;
+}
+.podcasts-preview .cover-picture {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(207, 202, 202);
+}
+.podcasts-preview .description {
+  display: block;
+  font: 0.7em;
+  padding-top: 0.5em;
+  font-family: var(--font1);
+}
+
+.podcasts-detail {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 1em;
+  margin-left: 10px;
+}
+.podcasts-detail .cover-picture {
+  width: 100%;
+  height: 400px;
+  background-color: gray;
+}
+.podcasts-detail .description {
+  display: block;
+  font: 1em;
+  padding-top: 0.5em;
+  font-size: 20px;
+}
